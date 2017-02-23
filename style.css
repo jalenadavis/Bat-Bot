@@ -1,3 +1,9 @@
 body
-{background-color: #5576aa}
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #5576aa;
+  color: #000000;
+
 
