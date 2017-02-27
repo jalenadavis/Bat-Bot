@@ -13,6 +13,10 @@ border-radius: 5px;
 padding: 20px;
 font-size: 150%;
 }
+ul{ 
+}
+li.menu{
+    display: inline;}
 .a {
 grid-column: 2 / 3;
 grid-row: 1 / 3;
