@@ -1,7 +1,8 @@
 body
 .wrapper {
 display: grid;
-grid-template-columns: 30% 30% 30%;
+grid-template-columns: [col] auto [col] auto [col] auto;
+grid-template-columns: [row] auto [row] auto [row];   
 grid-gap: 10px;
 background-color: #5576aa;
 color: #000000;
