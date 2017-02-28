@@ -1,7 +1,7 @@
 body .wrapper {
 	display: grid;
 	grid-template-columns: [col] auto [col] auto [col] auto;
-	grid-template-columns: [row] auto [row] auto [row];
+	grid-template-columns: [row] auto [row] auto [row] auto [row];
 	grid-gap: 10px;
 	background-color: #5576aa;
 	color: #000000;
@@ -19,11 +19,11 @@ li.menu {
 }
 .a {
 	grid-column: 2 / 3;
-	grid-row: 1 / 3;
+	grid-row: 1 / 4;
 }
 .b {
 	grid-column: 2 / 3;
-	grid-row: 1 / 3;
+	grid-row: 2 / 4;
 }
 .c {
 	grid-column-start: 1;
@@ -33,7 +33,7 @@ li.menu {
 }
 .d {
 	grid-column: 2 / 3;
-	grid-row: 2/3;
+	grid-row: 2/4;
 }
 .e {
 	grid-column-start: 3;
@@ -43,28 +43,28 @@ li.menu {
 }
 .f {
 	grid-column: 2 / 3;
-	grid-row: 3/3;
+	grid-row:4/4;
 }
 .g {
 	grid-column: 2/3;
-	grid-row: 1/3;
+	grid-row: 1/4;
 }
 .h {
 	grid-column-start: 2;
 	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 .i {
 	grid-column;
 	1/3;
-	grid-row: 2/3;
+	grid-row: 3/4;
 }
 .j {
 	grid-column: 3;
-	grid-row: 2;
+	grid-row: 3/4;
 }
 .k {
 	grid-column: 2;
-	grid-row: 3;
+	grid-row: 4/4;
 }
